@@ -1,0 +1,12 @@
+.e-container{
+  width: 100%;
+  max-width: 1320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@include mobile-first(678px){
+  .e-container{
+    padding: 0px 24px;
+  }
+}
